@@ -10,8 +10,24 @@
 
 		<select type="text" name="langue" style="width: 10%; height: 30px;">
 			<option value=""> Sélectionner</option>
-			<option value="1"  <?php if ($_POST['langue'] == 1){ echo 'selected= "selected"';} ?>> Français</option> &nbsp; &nbsp; &nbsp; &nbsp;
-			<option value="2" <?php if ($_POST['langue'] == 2){echo 'selected= "selected"';} ?>> Anglais</option>
+			<option value="1"  
+				<?php 
+					if (isset($_POST['ok'])) {
+						if ($_POST['langue'] == 1){ 
+							echo 'selected= "selected"';
+						} 
+					}
+				?> 
+				> Français</option> &nbsp; &nbsp; &nbsp; &nbsp;
+			<option value="2" 
+				<?php 
+					if (isset($_POST['ok'])) {
+			 			if ($_POST['langue'] == 2){
+			 				echo 'selected= "selected"';
+			 			}
+			 		} 
+			 	?> 
+			 	> Anglais</option>
 			<input type="submit" name="ok" value="ok" style="width: 5%; height: 30px; margin-left: 1%;"> 
 		</select>
 	</form>
@@ -51,6 +67,7 @@
 					$i++;
 				}
 			}
+
 		}
 			
 	?>
