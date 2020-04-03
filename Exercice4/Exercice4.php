@@ -37,20 +37,20 @@
 			}
 		}
 	}
+
+	#var_dump($tabValid);
 	for ($i=0; $i < count($tabValid); $i++) { 
 		$tabValid[$i] = preg_replace('#[\s]+#', ' ', $tabValid[$i]);
 	}
 	echo "les phrases valides sont: <br/>";
 	?>
-	<textarea cols="60" rows="10" readonly="readonly"> 
-		<?php
-			for ($i=0; $i < count($tabValid) ; $i++) { 
+	<textarea cols="60" rows="10" readonly="readonly"><?php for ($i=0; $i < count($tabValid) ; $i++) { 
 				echo $tabValid[$i];
 				echo "\n"; echo "\n";
 			}
 		?> </textarea>
 
-	<?php
+	<?php 
 
 	}
 
