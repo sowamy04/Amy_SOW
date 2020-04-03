@@ -21,7 +21,7 @@
 
 		$paragraphe =$_POST['pg'];
 
-		$tab = preg_split('#(?<=[?.!][^0-9])#', $paragraphe);
+		$tab = preg_split('#(?<=[?.!])[^0-9]#', $paragraphe);
 		for ($i=0; $i <count($tab) ; $i++) { 
 			$tab[$i] = trim($tab[$i]);
 		}
