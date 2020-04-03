@@ -41,6 +41,7 @@
 	#var_dump($tabValid);
 	for ($i=0; $i < count($tabValid); $i++) { 
 		$tabValid[$i] = preg_replace('#[\s]+#', ' ', $tabValid[$i]);
+		$tabValid[$i] = preg_replace('#[\s]+,#', ',', $tabValid[$i]);
 	}
 	echo "les phrases valides sont: <br/>";
 	?>
