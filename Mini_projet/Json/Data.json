@@ -1,0 +1,25 @@
+
+{
+
+	"utilisateurs" : [
+		{
+			"prenom" : "Amy Thierno", 
+			"nom" : "SOW",
+			"login" : "thierno04@gmail.com",
+			"password" : "thierno04",
+			"avatar" : "Avatar/amy.jpg",
+			"fonction" : "joueur"
+		},
+
+		{
+			"prenom" : "Amy", 
+			"nom" : " SOW",
+			"login" : "amysow04@gmail.com",
+			"password" : "amysow04",
+			"avatar" : "Avatar/amy.jpg",
+			"fonction" : "admin"
+		}
+
+	]
+
+}
