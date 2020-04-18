@@ -1,0 +1,21 @@
+ [
+		{
+			"prenom" : "Amy Thierno", 
+			"nom" : "SOW",
+			"login" : "joueur",
+			"password" : "joueur",
+			"avatar" : "Avatar/joueur.jpg",
+			"profil" : "joueur"
+		},
+
+		{
+			"prenom" : "Amy", 
+			"nom" : " SOW",
+			"login" : "admin",
+			"password" : "admin",
+			"avatar" : "Avatar/amy.jpg",
+			"profil" : "admin"
+		}
+
+	]
+

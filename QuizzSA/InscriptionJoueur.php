@@ -4,19 +4,9 @@
 	<title> Inscription joueur</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS/InscriptionJoueur.css">
-	<link rel="stylesheet" type="text/css" href="CSS/Connexion.css">
 </head>
 <body>
 
-	<div>
-		
-		<div class="header"> 
-
-			<div class="logo"> <img src="Images/logo-QuizzSA.png"> </div>
-			<div class="definition"> Le plaisir de jouer </div>
-		</div>
-
-			<div class="middle">
 				<div class="leftRight">
 				
 					<div class="left"> 
@@ -59,18 +49,11 @@
 					</div>
 
 					<div class="right"> 
-						<div style="width: 80%; height: 250px; border-radius: 200px; border: 2px solid black; margin-top: 25px;"> <img src=""> </div>
+						<div style="width: 80%; height: 250px; border-radius: 200px; border: 2px solid #51bfd0; margin-top: 25px;"> <img src=""> </div>
 						<br/>
 						<h3 style=" text-align: center;"> Avatar du joueur </h3>
 					</div>
 
-				</div>			
-
-		</div>
-
-	</div>
-
-
-
+				</div>		
 </body>
 </html>

@@ -1,0 +1,40 @@
+
+.adminCrea{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+}
+
+.left{
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+
+.adminTop{
+	width: 90%;
+	height: 50px;
+	float: left;
+	margin-top: 0;
+}
+
+.adminLeft{
+	width: 100%;
+	height: 550px;
+	float: left;
+	margin-left: 5%;
+}
+
+.right{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.input{
+	height: 30px;
+	width: 80%;
+	box-shadow:10px 10px 5px 0px #f9f9f9;
+
+}

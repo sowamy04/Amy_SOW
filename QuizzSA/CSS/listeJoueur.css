@@ -1,0 +1,42 @@
+.joueurListe{
+	width: 100%;
+	height: 500px;
+}
+
+.listeJoueur li{
+	display: inline;
+	margin-right: 3%;
+	width: 30%;
+}
+
+.topJoueur{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	color: gray;
+}
+
+
+.middleJoueur{
+	width: 80%;
+	height: 400px;
+	margin-left: 10%;
+	border: 1px solid #3addd6;
+}
+
+.bottomJoueur{
+	width: 100%;
+	height: 55px;
+}
+
+.suivant{
+	width: 10%;
+	height: 30px;
+	color: white;
+	background-color: #3addd6;
+	cursor: pointer;
+	float: right;
+	margin-right:  10%;
+	margin-top: 10px;
+	font-size: 150%;
+}
