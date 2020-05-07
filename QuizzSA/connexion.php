@@ -9,16 +9,12 @@
 		}
 		else {
 			
-			header ("location:index.php?lien=".$result); 
+			header ("location:index.php?lien=".$result);
 		}
 	}
-	else{
-		if (isset($_POST['inscription'])&& ($_GET['ins']=="inscription")){
-			require_once("InscriptionJoueur.php");
-		}
-	}
-
+	
 ?>
+
 <div class="con">
 				
 				<div class="loginForm"> Login Form</div>
@@ -49,7 +45,7 @@
 							<div>
 								
 								<button id="connexion" name="connexion" type="submit"> Connexion </button>
-								<button id="inscription" name="inscription"> <a href="index.php?ins=inscription" style="text-decoration: none; color: silver;">S'inscrire pour jouer?</a></button>
+								<button id="inscription" name="inscription"> <a href="index.php?lien=inscription" style="text-decoration: none; color: silver;">S'inscrire pour jouer?</a></button>
 							</div>
 			
 						</div>
@@ -84,10 +80,13 @@ document.getElementById("form-connexion").addEventListener("submit", function(e)
 				error= true
 			}
 		}
+		else{
+			document.getElementById(idDivError).innerText = ""
+		}
 	}
 
 	if (error) {
-		e.preventtDefault();
+		e.preventDefault();
 		return false;
 	}
 

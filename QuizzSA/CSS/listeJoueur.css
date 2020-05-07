@@ -6,7 +6,6 @@
 .listeJoueur li{
 	display: inline;
 	margin-right: 3%;
-	width: 30%;
 }
 
 .topJoueur{
@@ -19,7 +18,7 @@
 
 .middleJoueur{
 	width: 80%;
-	height: 400px;
+	height: 450px;
 	margin-left: 10%;
 	border: 1px solid #3addd6;
 }
@@ -30,7 +29,7 @@
 }
 
 .suivant{
-	width: 10%;
+	width: 15%;
 	height: 30px;
 	color: white;
 	background-color: #3addd6;
@@ -39,4 +38,18 @@
 	margin-right:  10%;
 	margin-top: 10px;
 	font-size: 150%;
+	font-weight: bolder;
+}
+
+.precedent{
+	width: 18%;
+	height: 30px;
+	color: white;
+	background-color: #3addd6;
+	cursor: pointer;
+	float: left;
+	margin-left: 10%;
+	margin-top: 10px;
+	font-size: 150%;
+	font-weight: bolder;
 }

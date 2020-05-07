@@ -14,7 +14,7 @@
 }
 
 .leftJoueur{
-	width: : 15%;
+	width: 15%;
 	height: 100%;
 	float: left;
 	margin-left: 2%;
@@ -60,4 +60,149 @@
 	margin-top: 30px;
 	position: fixed;
 	margin-left: 5%;
+}
+
+.userContent{
+	width: 98%;
+	height: 78%;
+	margin-top: 1%;
+	margin-left: 1%;
+	background-color: white;
+	border-radius: 7px;
+}
+
+.userLeft{
+	width: 65%;
+	height: 82%;
+	border: 1px solid #38d7d0;
+	margin-left: 1%;
+	margin-right: 3%;
+	background-color: white;
+	padding: 2%;
+	border-radius: 20px;
+	float: left;
+	margin-top: 2%;
+}
+
+.userRight{
+	width: 25%;
+	height: 70%;
+	background-color: white;
+	margin-top: 4%;
+	box-shadow: 3px 2px 3px 2px;
+	float: right;
+	margin-right: 1%;
+}
+
+.bouton{
+	height: 40px;
+	width: 49%;
+	color: gray;
+	text-decoration: none;
+	background-color: white;
+	text-decoration: none;
+	border: 2px solid white;
+}
+
+.bouton:active{
+	color: #38d7d0;
+	background-color: gray;
+}
+
+.score{
+	width: 100%;
+	height: 300px;
+}
+
+.bouton1{
+	color: silver;
+	text-decoration: none;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.bouton2{
+	color: #38d7d0 ;
+	text-decoration: none;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.userLeftTop{
+	width: 100%;
+	height: 20%;
+	background-color: #DCDCDC;
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	border-bottom:1px solid #38d7d0 ;
+	border-right: 1px solid #38d7d0;
+	color: black;
+}
+
+.userLeftPoints{
+	width: 100%;
+	height: 15%;
+}
+
+.labelPoint{
+	width: 20%;
+	height: 70%;
+	background-color: #DCDCDC;
+	border-bottom:1px solid #38d7d0 ;
+	border-right: 1px solid #38d7d0;
+	color: black;
+	margin-top: 2%;
+	float: right;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+.UserLeftReponse{
+	width: 100%;
+	height: 50%;
+}
+
+.userLeftBouton{
+	width: 100%;
+	height: 20%;
+}
+
+.boutonPrecedent{
+	width: 20%;
+	height: 70%;
+	color: White;
+	font-size: 200%;
+	font-weight: bolder;
+	float: left;
+	margin-left: 5%;
+	background-color: #38d7d0;
+}
+
+.boutonSuivant{
+	width: 20%;
+	height: 70%;
+	color: White;
+	font-size: 200%;
+	font-weight: bolder;
+	float: right;
+	margin-right: 5%;
+	background-color: #38d7d0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.boutonPrecedentDebut{
+	width: 20%;
+	height: 70%;
+	color: White;
+	font-size: 200%;
+	font-weight: bolder;
+	float: left;
+	margin-left: 5%;
+	background-color: silver;
 }

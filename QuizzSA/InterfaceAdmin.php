@@ -58,7 +58,7 @@
 							include("listeQuestions.php");
 						}
 						elseif ($url == "creationAdmin") {
-							include ("InscriptionJoueur.php");
+							include("creationAdmin.php");
 						}
 						elseif ($url == "listeJoueur") {
 							include("listeJoueur.php");

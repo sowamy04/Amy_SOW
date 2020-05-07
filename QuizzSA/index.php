@@ -3,7 +3,7 @@
 <head>
 	<title> Connexion </title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=div, initial-scale=" >
+	<!-- <meta name="viewport" content="width=div, initial-scale=" > -->
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="CSS/index.css">
 </head>
@@ -33,6 +33,12 @@
 							case 'InterfaceJoueur':
 								require_once("InterfaceJoueur.php");
 								break;
+							
+								case 'inscription':
+									require_once("InscriptionJoueur.php");
+									break;
+
+									default;
 					}
 				}
 				else {
