@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=div, initial-scale=" > -->
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="CSS/index.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
 

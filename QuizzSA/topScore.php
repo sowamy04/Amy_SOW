@@ -15,21 +15,17 @@
         <table>
             <?php
             foreach ($tab as $key => $value){
-            if ($key <5) {
-                ?>
-                    <tr >
-                        <td style=" font-size: 125%; width:45%;"> <?= $value['prenom'] ?> </td>
-                        <td style=" font-size: 125%; width:45%;"> <?= $value['nom'] ?> </td>
-                        <td style=" font-size: 125%;width:25%; margin-right: 5%;"> <?= $value['score'] ?> </td>
-                    </tr>
-                    <br/>
+                if ($key <5) {
+                    ?>
+                        <tr >
+                            <td style=" font-size: 125%; width:45%;"> <?= $value['prenom'] ?> </td>
+                            <td style=" font-size: 125%; width:45%;"> <?= $value['nom'] ?> </td>
+                            <td style=" font-size: 125%;width:25%; margin-right: 5%; border-bottom: 2px blue;"> <?= $value['score'] ?> </td>
+                        </tr>
+                        <br/>
 
-                <?php
+                    <?php
+                }
             }
             ?>
         </table>
-        <?php
-    }
-
-
-?>

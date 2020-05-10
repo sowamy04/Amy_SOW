@@ -17,20 +17,20 @@
 <html>
 <head>
 	<title> Liste Questions</title>
-	<link rel="stylesheet" type="text/css" href="CSS/listeQuestions.css">
+	<!-- <link rel="stylesheet" type="text/css" href="CSS/listeQuestions.css"> -->
 </head>
 <body>
-	<div class="listeQuestions">
+	<div class="LQlisteQuestions">
 		<form action="" method="POST">
-			<div class="defNbQuestion">
+			<div class="LQdefNbQuestion">
 				<br/>
-				<label class="texteListe"> Nbre de question/jeu</label>
-				<input type="number" name="nbQuestions" min="5" class="nbQuestions" value="<?php echo $_SESSION['nbQuestions']; ?>">
+				<label class="LQtexteListe"> Nbre de question/jeu</label>
+				<input type="number" name="nbQuestions" min="5" class="LQnbQuestions" value="<?php echo $_SESSION['nbQuestions']; ?>">
 				<input type="submit" name="soumettre" value="OK" style="background-color: #5e90af; height: 30px; width: 6%; cursor: pointer;">
 			</div>
 			<br/>
 		</form>
-		<div class="liste">
+		<div class="LQliste"> 
 		<?php
 			$file="questions";
 			$tab = array();
@@ -64,8 +64,9 @@
 					echo "<br/>";
 					if ($tab[$i]['choix'] == 1) {
 						?>
-						<input type="text" class="nbQuestions">
+						<input type="text" class="LQnbQuestionsInput">
 						<?php
+						echo "<br/>";
 						echo "<br/>";
 					}
 					elseif ($tab[$i]['choix'] == 2) {
@@ -93,18 +94,18 @@
 		
 		?>
 		</div>
-		<div class="bottom">
+		<div class="LQbottom">
 		<?php
 		$suivant = $pageActuelle+1;
 		$precedent = $pageActuelle-1;
 			if ($pageActuelle >1 ) {
 				?>
-					<a href="index.php?lien=InterfaceAdmin&page=listeQuestions&amy=<?=$precedent?>"><button class="precedent"> Précédent </button> </a>
+					<a href="index.php?lien=InterfaceAdmin&page=listeQuestions&amy=<?=$precedent?>"><button class="LQprecedent"> Précédent </button> </a>
 				<?php
 			}
 			if ($pageActuelle !=$nombreDePage ) {
 				?>
-					<a href="index.php?lien=InterfaceAdmin&page=listeQuestions&amy=<?=$suivant?>"><button class="suivant"> Suivant </button> </a>
+					<a href="index.php?lien=InterfaceAdmin&page=listeQuestions&amy=<?=$suivant?>"><button class="LQsuivant"> Suivant </button> </a>
 				<?php
 			}
 			

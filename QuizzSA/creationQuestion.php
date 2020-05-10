@@ -96,21 +96,21 @@
 <html>
 <head>
 	<title> Création question</title>
-	<link rel="stylesheet" type="text/css" href="CSS/creationQuestions.css"> 
+	<!-- <link rel="stylesheet" type="text/css" href="CSS/creationQuestions.css">  -->
 </head>
 <body>
 	<form action="" method="POST" id="form-connexion">
 		<div>
 			<div class="texteQuestion"> PARAMETRER VOTRE QUESTION </div>
 			<br/> <br/>
-			<div class="middleQuestion">
+			<div class="CQmiddleQuestion">
 				
-				<div class="inputQuestion">
+				<div class="CQinputQuestion">
 					<label class="texteQuestionForm"> <strong> Question </strong> </label>
 					<input type="text" name="laQuestion" style=" width: 50%; height: 70px; float: left; margin-left: 3%; background-color: #DCDCDC;" error="error-1">
 				</div>
 				<div class="error-form" id="error-1"></div>
-				<br/> <br/> <br/>
+				<br/> <br/> 
 				<div>
 					<label class="texteQuestionForm"> <strong>Nombre de points  </strong></label>
 					<input type="number" name="nbPoints" min="1" max="30" style=" width: 10%; height: 30px; margin-left: 3%; background-color: 	#DCDCDC;" error="error-2">

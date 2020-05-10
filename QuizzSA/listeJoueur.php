@@ -2,12 +2,12 @@
 <html>
 <head>
 	<title> Liste Joueurs</title>
-	<link rel="stylesheet" type="text/css" href="CSS/listeJoueur.css">
+	<!-- <link rel="stylesheet" type="text/css" href="CSS/listeJoueur.css"> -->
 </head>
 <body>
-	<div class="joueurListe">
-		<div class="topJoueur"> <strong> LISTE DES JOUEURS PAR SCORE </strong></div>
-		<div class="middleJoueur">
+	<div class="LJjoueurListe">
+		<div class="LJtopJoueur"> <strong> LISTE DES JOUEURS PAR SCORE </strong></div>
+		<div class="LJmiddleJoueur">
 			<?php
 		$file="utilisateurs";
 		$tab = array();
@@ -51,10 +51,10 @@
 			if (isset($tab[$i])) {
 				?>
 					<tr>
-						<td><?php echo $tab[$i]['prenom'];?></td>
-						<td><?php echo $tab[$i]['nom'];?></td>
-						<td><?php echo $tab[$i]['score'];?></td>
-					</tr>
+						<td style="text-align: center;"><?php echo $tab[$i]['prenom'];?></td>
+						<td style="text-align: center;"><?php echo $tab[$i]['nom'];?></td>
+						<td style="text-align: center;"><?php echo $tab[$i]['score'];?></td>
+					</tr> 
 				<?php 
 			}
 		}
@@ -63,18 +63,18 @@
 		</table>
 		</div>
 
-		<div class="bottomJoueur">
+		<div class="LJbottomJoueur">
 			<?php
 			$precedent = $pageActuelle - 1;
 			$suivant = $pageActuelle + 1; 
 				if ($pageActuelle > 1) {
 					?>
-						<a href="index.php?lien=InterfaceAdmin&page=listeJoueur&pageliste=<?= $precedent ?>"><button class="precedent"> Précédent</button></a>
+						<a href="index.php?lien=InterfaceAdmin&page=listeJoueur&pageliste=<?= $precedent ?>"><button class="LJprecedent"> Précédent</button></a>
 					<?php
 				}
 				if ($pageActuelle != $nombreDePage ) {
 					?>
-						<a href="index.php?lien=InterfaceAdmin&page=listeJoueur&pageliste=<?= $suivant ?>"><button class="suivant"> Suivant </button></a>
+						<a href="index.php?lien=InterfaceAdmin&page=listeJoueur&pageliste=<?= $suivant ?>"><button class="LJsuivant"> Suivant </button></a>
 					<?php
 				}
 			?>
