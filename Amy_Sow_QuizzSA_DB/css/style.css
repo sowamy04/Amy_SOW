@@ -1,0 +1,207 @@
+.container-header{
+    height: 154px;
+    background-color: #869EDD;
+}
+
+.containerMiddle{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 630px;
+    background-image: url("../Images/quiz2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texte-header{
+    font-size: 50px;
+    margin-top: 2%;
+}
+
+.img-header {
+    height: 150px;
+}
+
+.imageIdentification{
+    width: 35%;
+    height: 150px;
+    margin-top: 3%;
+    margin-left: 25%;
+    border: 1px solid black;
+    border-radius: 50%;
+    }
+
+.images{
+    width: 7%;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.identification{
+    width: 45%;
+    float: left;
+    margin-top: 5%;
+}
+
+.inscription{
+    width: 40%; 
+    float: right;
+    margin-left: 5%;
+}
+.font-size{
+    font-size: 35px;
+}
+.font-size2{
+    font-size: 12px;
+    margin-left: 3%;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inputTexte{
+    opacity: 0.3;
+}
+
+.inputTexteIns{
+    width: 100%; 
+    height: 50px;
+    background-color: silver;
+    opacity: 0.3;
+}
+
+.img-avatar{
+    width: 25%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 4%;
+}
+
+.inscriptionTexte{
+    margin-left: 10%;
+    font-size: 25px;
+    margin-top: 8%;
+    font-weight: bolder;
+}
+
+.inscrire{
+    background-color: #869EDD ;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+.middleAdmin{
+    height: 500px;
+    margin-top: 20px;
+}
+.margin{
+    margin-top: 15px;
+}
+.error-form{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+@media (max-width: 767px) {
+    .containerMiddle{
+        position: absolute;
+        width: 100%;
+        height: 625px;
+        left: 0px;
+        top: 125px;
+        background-image: url("../Images/quiz2.png");
+        background-size: cover;
+    }
+
+    .texte-header{
+        font-size: 30px;
+        margin-top: 2%;
+    }
+
+    .container-header{
+        width: 100%;
+        height: 125px;
+        background-color: #869EDD;
+    }
+
+    .img-header {
+        height: 100px;
+    }
+
+    .containerMiddle {
+    background-size: cover;
+    }
+
+    .imageIdentification{
+        width: 20%;
+        height: 55px;
+        border: 1px solid black;
+        margin-left: 35%;
+        margin-top: 3%;
+        }
+
+    .identification{
+        width: 80%;
+        float: left;
+    }
+    
+    .inscription{
+        width: 80%;
+        float: left;
+        margin-top: 5%;
+        border-top: 2px solid blue;
+    }
+
+    .inputTexte{
+        width: 85%; 
+        background-color: silver;
+        height: 30px;
+        opacity: 0.2;
+    }
+
+    .inputTexteIns{
+        width: 85%; 
+        height: 30px;
+        background-color: silver;
+        opacity: 0.3;
+    }
+
+    .img-avatar{
+        width: 20%;
+        height: 60px;
+        border: 1px solid black;
+        border-radius: 50px;
+        float: right;
+        margin-left: 10%;
+    }
+    
+    .inscriptionTexte{
+        margin-left: 15%;
+        font-size: 20px;
+        margin-top: 13%;
+    }
+
+    .inscrire{
+        float: right;
+        background-color: #869EDD ;
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;margin-left: 5%;
+    }
+    .font-size{
+        font-size: 10px;
+    }
+    .font-size2{
+        font-size: 7px;
+    }
+}
