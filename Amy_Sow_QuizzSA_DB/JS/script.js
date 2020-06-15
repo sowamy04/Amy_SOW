@@ -65,7 +65,7 @@ $(function(){
             $("#repeatPassword").next(".error-form").fadeIn().text("Veuillez répéter votre mot de passe svp!");
             valid = false;
         }
-        else if($("#repeatPassword").val() != "#repeatPassword"){
+        else if($("#repeatPassword").val() != ("#password").val()){
             $("#repeatPassword").next(".error-form").show().text("Mots de passe non identiques");
             valid = false;
         }
